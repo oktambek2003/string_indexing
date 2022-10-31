@@ -1,6 +1,6 @@
 String func(String s, int n) {
   int a = s.length;
-  if (a < n) {
+  if (a > n) {
     return s[n];
   } else {
     return s;
