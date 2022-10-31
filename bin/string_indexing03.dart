@@ -1,4 +1,8 @@
 String func(String s) {
+  int a = s.length;
+  int b = a - 1;
+  
+  return s[b];
   """
     The string variable s is given. return the last character.
     Args:
@@ -8,4 +12,8 @@ String func(String s) {
     """;
   //your code here
   return '';
+}
+
+void main() {
+  print(func("oktambeka"));
 }
