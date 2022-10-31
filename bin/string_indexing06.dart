@@ -11,7 +11,7 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return s[b] + c;
+  return c + s[b];
 }
 
 void main() {
