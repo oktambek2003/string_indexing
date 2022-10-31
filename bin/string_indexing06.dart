@@ -8,5 +8,5 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return s[0] + s[s.length - 1];
+  return '';
 }

@@ -7,5 +7,5 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return s[1];
+  return '';
 }

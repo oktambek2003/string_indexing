@@ -8,8 +8,5 @@ String func(String s, int n) {
         str: answer
     """;
   //your code here
-  if (s.length > n) {
-    return s[n];
-  }
-  return s;
+  return '';
 }
