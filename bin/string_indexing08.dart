@@ -4,6 +4,7 @@ int func(String s) {
   String c = s[2];
   String d = s[3];
   String e = s[4];
+  String r = s[5];
   String h = "*";
   if (a == h) {
     return 0;
@@ -19,7 +20,10 @@ int func(String s) {
   }
   if (e == h) {
     return 4;
-  } 
+  }
+  if (r == h) {
+    return 5;
+  }
 
   """
     A string of length five is given. Return the index of the "*" character, 
@@ -34,5 +38,5 @@ int func(String s) {
 }
 
 void main() {
-  print(func("ktawq"));
+  print(func("ktaawq"));
 }
