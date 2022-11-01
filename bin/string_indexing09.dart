@@ -7,5 +7,15 @@ String func(String s) {
         str: answer
     """;
   //your code here
-  return '';
+  String a = s[0];
+  String b = s[1];
+  String c = s[2];
+  String d = s[3];
+  String e = s[4];
+
+  return e + d + c + b + a;
+}
+
+void main() {
+  print(func("oktam"));
 }
